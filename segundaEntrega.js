@@ -174,7 +174,7 @@ function sortAZ(products) {
         sortByAZ.forEach((product) => {
             filteredProducts.push(product.product);
             // Código para mostrar por consola cada producto y su precio
-            console.log(product.product);
+            console.log(`${product.product} - €${product.price}`);
         });
         // Regresar array con solo los nombres de los productos:
         return filteredProducts;
@@ -217,7 +217,7 @@ function sortZA(products) {
         sortByZA.forEach((product) => {
             filteredProducts.push(product.product);
             // Código para mostrar por consola cada producto y su precio
-            console.log(product.product);
+            console.log(`${product.product} - €${product.price}`);
         });
         // Regresar array con solo los nombres de los productos:
         return filteredProducts;
