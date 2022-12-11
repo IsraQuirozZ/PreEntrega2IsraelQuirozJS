@@ -1,4 +1,4 @@
-// E-commerce
+// E-commerce (Simulación de filtrado de Productos)
 // Productos (array de objetos):
 // id / producto / imagen / descripción / precio / oferta / categoría / subcategoría
 // id / product / img / description / price / offer / category / subcategory
