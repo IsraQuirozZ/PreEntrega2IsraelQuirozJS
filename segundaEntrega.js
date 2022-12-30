@@ -24,7 +24,7 @@ function offerDiscount(products) {
 offerDiscount(productos);
 
 // Eliminar para entregas posteriores
-console.log("FILTO POR OFERTAS");
+console.log("FILTRO POR OFERTAS");
 console.log("-------------------------------------------------------\n");
 // 2)
 function filterOffer(products) {
@@ -58,7 +58,7 @@ function filterOffer(products) {
     }
 }
 
-// console.log(filterOffer(productos));
+console.log(filterOffer(productos));
 // Eliminar para entregas posteriores
 console.log("-------------------------------------------------------\n");
 console.log("FILTRO POR CATEGORÍA");
@@ -106,7 +106,7 @@ function filterCategory(products) {
     }
 }
 
-// console.log(filterCategory(productos));
+console.log(filterCategory(productos));
 // Eliminar para entregas posteriores
 console.log("-------------------------------------------------------\n");
 console.log("FILTRO POR SUBCATEGORÍA");
@@ -152,7 +152,7 @@ function filterSubcategory(products) {
     }
 }
 
-// console.log(filterSubcategory(productos));
+console.log(filterSubcategory(productos));
 // Eliminar para entregas posteriores
 console.log("-------------------------------------------------------\n");
 console.log("ORDEN ALFABÉTICO (A-Z)");
@@ -195,7 +195,7 @@ function sortAZ(products) {
     }
 }
 
-// console.log(sortAZ(productos));
+console.log(sortAZ(productos));
 
 // Eliminar para entregas posteriores
 console.log("-------------------------------------------------------\n");
@@ -238,7 +238,7 @@ function sortZA(products) {
     }
 }
 
-// console.log(sortZA(productos));
+console.log(sortZA(productos));
 
 // 7)
 function searchProduct(products) {

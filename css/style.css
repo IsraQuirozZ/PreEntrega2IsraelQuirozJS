@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root {
+    --colorPrincipal: #222831;
+    --colorTerciario: #313b4b;
+    --colorSecundario: #d1aa6e;
+    --colorHover: #f05454;
+}
+
+nav {
+    background-color: var(--colorPrincipal);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 7%;
+    height: 70px;
+}
+
+.logo {
+    color: var(--colorHover);
+}
+
+.logo:hover {
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+}
+
+span {
+    color: #f05454;
+    text-decoration: underline;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: var(--colorHover);
+    text-decoration: underline;
+    transition: all ease 0.3s;
+}
+
+.shopContainer {
+    display: flex;
+    position: relative;
+}
+
+.sidebar {
+    width: 25%;
+    height: 100vh;
+    border-right: 1px solid gray;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.filterForm {
+    /* height: 100%; */
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+}
+
+.button-value {
+    background-color: inherit;
+    color: var(--colorHover);
+    border: 2px solid var(--colorHover);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.button-value:hover {
+    cursor: pointer;
+    background-color: var(--colorHover);
+    color: white;
+}
+
+.active {
+    background-color: var(--colorHover);
+    color: white;
+}
+
+.btn {
+    width: 100px;
+    height: 30px;
+    background: inherit;
+    border-radius: 2px;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.products {
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+.productsLayout {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.productContainer {
+    background-color: var(--colorPrincipal);
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    width: 45%;
+    border-radius: 5px;
+}
+
+.productImg {
+    width: 40%;
+    height: 180px;
+    border-radius: 5px;
+}
+
+.productInfo {
+    color: white;
+    width: 60%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.productPriceDetails {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.productBtn {
+    color: black;
+    background-color: var(--colorHover);
+}
+
+body {
+    position: relative;
+}
+
+.loginPopup {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background-color: skyblue;
+    z-index: 1;
+}
